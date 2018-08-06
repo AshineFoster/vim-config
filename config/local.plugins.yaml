@@ -1,0 +1,5 @@
+- repo: itchyny/lightline.vim
+- repo: mattn/emmet-vim
+- repo: tpope/vim-eunuch
+- repo: tpope/vim-surround
+- repo: sebastianmarkow/deoplete-rust
