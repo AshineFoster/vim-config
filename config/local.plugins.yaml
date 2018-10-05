@@ -3,3 +3,6 @@
 - repo: tpope/vim-eunuch
 - repo: tpope/vim-surround
 - repo: sebastianmarkow/deoplete-rust
+- repo: w0rp/ale
+- repo: zchee/deoplete-clang
+- repo: kien/rainbow_parentheses.vim

@@ -160,11 +160,11 @@ set pumheight=15        " Pop-up menu's line height
 set helpheight=12       " Minimum help window height
 set previewheight=12    " Completion preview height
 
-set noshowcmd           " Don't show command in status line
-set cmdheight=2         " Height of the command line
+"set noshowcmd           " Don't show command in status line
+set cmdheight=3         " Height of the command line
 set cmdwinheight=5      " Command-line lines
 set noequalalways       " Don't resize windows on split or close
-set laststatus=2        " Always show a status line
+"set laststatus=2        " Always show a status line
 set colorcolumn=80      " Highlight the 80th character limit
 set display=lastline
 

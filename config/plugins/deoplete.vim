@@ -20,6 +20,8 @@ let g:deoplete#file#enable_buffer_path = 1
 let g:deoplete#sources#jedi#statement_length = 30
 let g:deoplete#sources#jedi#show_docstring = 1
 let g:deoplete#sources#jedi#short_types = 1
+let g:deoplete#sources#clang#libclang_path = '/usr/lib/llvm-6.0/lib/libclang-6.0.so.1'
+let g:deoplete#sources#clang#clang_header = '/usr/lib/llvm-6.0/lib/clang'
 
 let g:deoplete#sources#ternjs#filetypes = [
 	\ 'jsx',
@@ -87,6 +89,7 @@ call deoplete#custom#source('flow',          'mark', '⌁')
 call deoplete#custom#source('padawan',       'mark', '⌁')
 call deoplete#custom#source('TernJS',        'mark', '⌁')
 call deoplete#custom#source('go',            'mark', '⌁')
+call deoplete#custom#source('clang',         'mark', '⌁')
 call deoplete#custom#source('jedi',          'mark', '⌁')
 call deoplete#custom#source('vim',           'mark', '⌁')
 call deoplete#custom#source('neosnippet',    'mark', '⌘')
@@ -97,8 +100,9 @@ call deoplete#custom#source('tmux-complete', 'mark', '⊶')
 call deoplete#custom#source('syntax',        'mark', '♯')
 call deoplete#custom#source('member',        'mark', '.')
 
-call deoplete#custom#source('padawan',       'rank', 660)
-call deoplete#custom#source('go',            'rank', 650)
+call deoplete#custom#source('padawan',       'rank', 670)
+call deoplete#custom#source('go',            'rank', 660)
+call deoplete#custom#source('clang',         'rank', 650)
 call deoplete#custom#source('vim',           'rank', 640)
 call deoplete#custom#source('flow',          'rank', 630)
 call deoplete#custom#source('TernJS',        'rank', 620)
